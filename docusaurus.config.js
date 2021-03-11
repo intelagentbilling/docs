@@ -48,7 +48,7 @@ module.exports = {
             },
             {
               label: 'Designation',
-              to: 'docs/doc2/',
+              to: 'docs/getting-started/doc2',
             },
           ],
         },
