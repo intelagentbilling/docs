@@ -43,29 +43,29 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Installation',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
+              label: 'Designation',
               to: 'docs/doc2/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Pricing',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Self-Service',
+              href: 'docs/pricing/self-service',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Full-Service',
+              href: 'docs/pricing/full-service',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Pay As You Go',
+              href: 'docs/pricing/pay-as-you-go',
             },
           ],
         },
@@ -73,12 +73,12 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Quick Copy',
+              to: 'docs/features/quick-copy',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Health Card Validation',
+              href: 'docs/features/hcv',
             },
           ],
         },
