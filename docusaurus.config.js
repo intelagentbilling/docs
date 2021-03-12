@@ -2,7 +2,7 @@ module.exports = {
   title: 'IntelAGENT Documentation and Support',
   tagline: 'OHIP Billing Made Better',
   url: 'https://akepecs.github.io/docusaurus',
-  baseUrl: '/docusaurus/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
