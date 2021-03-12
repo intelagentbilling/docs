@@ -1,7 +1,7 @@
 module.exports = {
   title: 'IntelAGENT Documentation and Support',
   tagline: 'OHIP Billing Made Better',
-  url: 'https://intelagent-doc.onrender.com',
+  url: 'https://intelagent-docs.onrender.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
