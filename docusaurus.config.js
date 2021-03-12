@@ -18,7 +18,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: '/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -44,11 +44,11 @@ module.exports = {
           items: [
             {
               label: 'Installation',
-              to: 'docs/',
+              to: '/',
             },
             {
               label: 'Designation',
-              to: 'docs/getting-started/doc2',
+              to: '/getting-started/doc2',
             },
           ],
         },
@@ -57,15 +57,15 @@ module.exports = {
           items: [
             {
               label: 'Self-Service',
-              href: 'docs/pricing/self-service',
+              href: '/pricing/self-service',
             },
             {
               label: 'Full-Service',
-              href: 'docs/pricing/full-service',
+              href: '/pricing/full-service',
             },
             {
               label: 'Pay As You Go',
-              href: 'docs/pricing/pay-as-you-go',
+              href: '/pricing/pay-as-you-go',
             },
           ],
         },
@@ -74,11 +74,11 @@ module.exports = {
           items: [
             {
               label: 'Quick Copy',
-              to: 'docs/features/quick-copy',
+              to: '/features/quick-copy',
             },
             {
               label: 'Health Card Validation',
-              href: 'docs/features/hcv',
+              href: '/features/hcv',
             },
           ],
         },
