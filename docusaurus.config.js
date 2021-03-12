@@ -2,7 +2,7 @@ module.exports = {
   title: 'IntelAGENT Documentation and Support',
   tagline: 'OHIP Billing Made Better',
   url: 'https://docs.intelagent.ca',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -93,6 +93,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
+          // Removes the Home Page
+          routeBasePath: '/',
 
         },
         blog: {
