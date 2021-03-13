@@ -1,7 +1,7 @@
 module.exports = {
   title: 'IntelAGENT Documentation and Support',
   tagline: 'OHIP Billing Made Better',
-  url: 'https://intelagent-docs.onrender.com',
+  url: 'http://docs.intelagent.ca',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -9,6 +9,11 @@ module.exports = {
   organizationName: 'akepecs', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
+    gtag: {
+      trackingID: 'GTM-T2SJLRG',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'IntelAGENT',
       logo: {
@@ -108,5 +113,5 @@ module.exports = {
         },
       },
     ],
-  ],
+  ], 
 };
