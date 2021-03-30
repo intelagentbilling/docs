@@ -1,5 +1,5 @@
 ---
-id: doc2
+id: designation
 title: Designating IntelAGENT as your Agent
 sidebar_label: MOH Designation
 ---

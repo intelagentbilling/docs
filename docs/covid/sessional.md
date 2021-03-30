@@ -14,7 +14,7 @@ You can review the [Ministry Bulletin](http://www.health.gov.on.ca/en/pro/progra
 
 :::warning
 
-COVID Sessional Claims must have a MOH Group. Please see [MOH Group Setup](../getting-started/doc3.md)
+COVID Sessional Claims must have a MOH Group. Please see [MOH Group Setup](../getting-started/moh_group.md)
 
 :::
 

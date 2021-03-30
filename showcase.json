@@ -1,0 +1,110 @@
+[
+    {
+      "name": "St. Joseph's Health Center",
+      "icon": "sjhct-logo.png",
+      "infoLink": "https://code.facebook.com/posts/1189117404435352/react-native-for-android-how-we-built-the-first-cross-platform-react-native-app/",
+      "infoTitle": "How We Built the First Cross-Platform React Native App",
+      "pinned": true
+    },
+    {
+      "name": "North York General",
+      "icon": "nyg-logo.svg",
+      "infoLink": "https://analytics.facebook.com/blog",
+      "infoTitle": "",
+      "pinned": true
+    },
+    {
+      "name": "Mount Sinai Hospital",
+      "icon": "msh-logo.png",      
+      "infoLink": "https://www.mountsinai.on.ca/",
+      "pinned": true
+    },
+    {
+      "name": "Sunnybrook",
+      "icon": "sb-hsc-logo.png",
+      "infoLink": "https://engineering.instagram.com/react-native-at-instagram-dd828a9a90c7#.3h4wir4zr",
+      "infoTitle": "React Native at Instagram",
+      "pinned": true
+    },
+    {
+      "name": "UHN",
+      "icon": "uhn-logo.png",
+      "infoLink": "",
+      "infoTitle": "",
+      "pinned": true
+    },
+    {
+      "name": "Lakeridge",
+      "icon": "lakeridge-logo.png",
+      "infoLink": "https://blog.coinbase.com/optimizing-react-native-7e7bf7ac3a34",
+      "infoTitle": "Onboarding thousands of users with React Native",
+      "pinned": true
+    },
+    {
+      "name": "Women's Colledge",
+      "icon": "wch-logo.svg",
+      "infoLink": "https://blog.coinbase.com/optimizing-react-native-7e7bf7ac3a34",
+      "infoTitle": "Onboarding thousands of users with React Native",
+      "pinned": true
+    },
+    {
+      "name": "The Ottawa Hospital",
+      "icon": "TOH-logo.svg",
+      "linkAppStore": "https://apps.apple.com/us/app/tableau-mobile/id434633927",
+      "linkPlayStore": "https://play.google.com/store/apps/details?id=com.Tableau.TableauApp&hl=en_US",
+      "infoLink": "https://engineering.tableau.com/react-native-at-tableau-3-years-in-89d43c38354c",
+      "infoTitle": "React Native at Tableau 3 Years in",
+      "pinned": true
+    },
+    {
+      "name": "Michael Garrison",
+      "icon": "teh-logo.svg",
+      "linkAppStore": "https://apps.apple.com/us/app/tableau-mobile/id434633927",
+      "linkPlayStore": "https://play.google.com/store/apps/details?id=com.Tableau.TableauApp&hl=en_US",
+      "infoLink": "https://engineering.tableau.com/react-native-at-tableau-3-years-in-89d43c38354c",
+      "infoTitle": "React Native at Tableau 3 Years in",
+      "pinned": true
+    },
+    {
+      "name": "Grey Bruce Health Service",
+      "icon": "GBHS-logo.png",
+      "infoLink": "https://code.facebook.com/posts/895897210527114/dive-into-react-native-performance/",
+      "infoTitle": "Using React Native in the Facebook App",
+      "pinned": true
+    },
+    {
+      "name": "Queensway Carleton Hospital",
+      "icon": "queensway-logo.png",
+      "linkAppStore": "https://apps.apple.com/us/app/tableau-mobile/id434633927",
+      "linkPlayStore": "https://play.google.com/store/apps/details?id=com.Tableau.TableauApp&hl=en_US",
+      "infoLink": "https://engineering.tableau.com/react-native-at-tableau-3-years-in-89d43c38354c",
+      "infoTitle": "React Native at Tableau 3 Years in",
+      "pinned": true
+    },
+    {
+      "name": "London Health Services Centre",
+      "icon": "lhsc-logo.svg",      
+      "infoLink": "https://https://www.lhsc.on.ca/",
+      "pinned": true
+    },
+    {
+      "name": "Muskoka Algonquin Healthcare",
+      "icon": "mah-logo.svg",      
+      "infoLink": "https://www.mahc.ca/en/index.aspx",
+      "pinned": true
+    },
+    {
+      "name": "Grand River Hospital",
+      "icon": "grh-logo.svg",      
+      "infoLink": " https://www.grhosp.on.ca/",
+      "pinned": true
+    },
+    {
+      "name": "William Osler Heath System",
+      "icon": "woh-logo.svg",      
+      "infoLink": "https://www.williamoslerhs.ca/en/index.aspx",
+      "pinned": true
+    }
+  
+    
+  ]

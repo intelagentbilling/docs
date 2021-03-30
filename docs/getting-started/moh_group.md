@@ -1,5 +1,5 @@
 ---
-id: doc3
+id: moh_group
 title: MOH Group Codes
 sidebar_label: MOH Groups
 ---

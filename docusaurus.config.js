@@ -1,13 +1,18 @@
+const users = require('./showcase.json');
+
 module.exports = {
   title: 'IntelAGENT Documentation and Support',
   tagline: 'OHIP Billing Made Better',
-  url: 'http://docs.intelagent.ca',
+  url: 'http://www.intelagent.ca',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'akepecs', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  customFields: {
+    users,
+  },
   themeConfig: {
     gtag: {
       trackingID: 'GTM-T2SJLRG',
@@ -49,11 +54,11 @@ module.exports = {
           items: [
             {
               label: 'Installation',
-              to: '/',
+              to: '/docs/',
             },
             {
               label: 'Designation',
-              to: '/getting-started/doc2',
+              to: '/docs/getting-started/designation',
             },
           ],
         },
@@ -62,15 +67,15 @@ module.exports = {
           items: [
             {
               label: 'Self-Service',
-              href: '/pricing/self-service',
+              href: '/docs/pricing/self-service',
             },
             {
               label: 'Full-Service',
-              href: '/pricing/full-service',
+              href: '/docs/pricing/full-service',
             },
             {
               label: 'Pay As You Go',
-              href: '/pricing/pay-as-you-go',
+              href: '/docs/pricing/pay-as-you-go',
             },
           ],
         },
@@ -79,11 +84,11 @@ module.exports = {
           items: [
             {
               label: 'Quick Copy',
-              to: '/features/quick-copy',
+              to: '/docs/features/quick-copy',
             },
             {
               label: 'Health Card Validation',
-              href: '/features/hcv',
+              href: '/docs/features/hcv',
             },
           ],
         },
@@ -99,7 +104,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Removes the Home Page
-          routeBasePath: '/',
+          routeBasePath: '/docs',
 
         },
         blog: {
@@ -113,5 +118,6 @@ module.exports = {
         },
       },
     ],
-  ], 
+  ],
+  plugins: ['@docusaurus/plugin-ideal-image'],
 };

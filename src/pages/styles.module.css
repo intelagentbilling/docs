@@ -24,14 +24,14 @@
   justify-content: center;
 }
 
-.features {
+.sqaures {
   display: flex;
   align-items: center;
   padding: 2rem 0;
   width: 100%;
 }
 
-.featureImage {
+.squareImage {
   height: 200px;
   width: 200px;
 }

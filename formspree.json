@@ -1,0 +1,8 @@
+{
+    "forms": {
+      "contactForm": {
+        "name": "Contact Form",
+        "actions": [{ "type": "email", "to": "{adam@intelagent.ca}" }]
+      }
+    }
+  }

@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: installation
 title: Installation
 sidebar_label: Installation
 slug: /
@@ -27,7 +27,7 @@ When you sign up you'll be asked to create a new login and password. Please use 
 
 The sign up will ask you for your CPSO Number and your specialty. The claims won't be sent to the ministry until you have received your billing number and designated IntelAGENT as one of your agents.
 
-You will receive an introductory email with instructions to designate IntelAGENT as your billing agent. You can review the [instruction guide](doc2.md).
+You will receive an introductory email with instructions to designate IntelAGENT as your billing agent. You can review the [instruction guide](designation.md).
 
 :::tip
 
