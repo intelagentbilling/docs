@@ -94,6 +94,12 @@ button {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 768px) {
+  .mainContainer {
+    background-position: bottom !important;
+  }
+}
+
 @media only screen and (max-width: 996px) {
   .menu > button {
     right: 50% !important;
@@ -129,7 +135,7 @@ button {
 
   #main-header {
     padding-top: 70px;
-    padding-bottom: 350px;
+    padding-bottom: 425px;
   }
 
   #contact-us #main-header {
@@ -285,6 +291,7 @@ body.separateOnPageNav .mainContainer {
 
 body:not(.separateOnPageNav) .mainContainer {
   padding-bottom: 0;
+  align-items: center;
   background-image: url(/img/hero_bezel.png);
   background-repeat: no-repeat;
   min-height: 100vh;
