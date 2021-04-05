@@ -62,7 +62,7 @@
   }
   
   .pricingtable {
-    border: 2px solid #e1f1ff;
+    border: 3px solid #e1f1ff;
     display: flex;
     flex-direction: column;
   }
@@ -75,7 +75,6 @@
   
   .pricingtable * {
     text-align: center;
-    text-transform: uppercase;
   }
   
   .pricingplan {
@@ -90,7 +89,7 @@
   @media (min-width: 900px) {
     .pricingplan {
       border-bottom: none;
-      border-right: 1px solid #e1f1ff;
+      border-right: 3px solid #e1f1ff;
       flex-basis: 100%;
       padding: 25px 50px;
     }
@@ -106,13 +105,21 @@
   }
   
   .pricingheader {
+    font-size: 25px;
+    font-weight: 800;
+    color: #343434;
+    text-transform: uppercase;
+  }
+
+  .pricingsubheader {
     color: #888;
     font-weight: 600;
     letter-spacing: 1px;
+    text-transform: uppercase;
   }
   
   .pricingfeatures {
-    color: #52bf9f;
+    color: black;
     font-weight: 600;
     letter-spacing: 1px;
     margin: 50px 0 25px;

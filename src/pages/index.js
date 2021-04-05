@@ -16,7 +16,6 @@ import {Nav} from '../components/nav';
 import {ContactForm} from '../components/contact';
 
 
-
 const squares = [
   {
     title: 'Secure',
@@ -29,9 +28,7 @@ const squares = [
     description: (
       <>
       It has passed conformance testing by the Ontario Ministry of Health 
-      and is used by physicians across the province. We are not in the 
-      data-harvesting business: Your information is yours alone and will never 
-      be sold or used for marketing services.
+      and is used by physicians across the province. 
       </>
     ),
   },
@@ -40,14 +37,13 @@ const squares = [
     imageUrl: 'img/undraw_medicine.svg',
     subtitle: (
       <> 
-      The IntelAGENT app is simple yet powerful.
+      The IntelAGENT service is simple yet very powerful.
       </>
     ),
     description: (
       <>
-      We’ve worked with physicians across specialties to ensure we fit 
-      their requirements. Our app can be adapted to group practice or your 
-      specific needs. We’re an agile, responsive company focussed on physicians.
+      We’ve worked with physicians across all specialties to ensure we fit 
+      their requirements. We’re an agile, responsive company focused on physicians.
       </>
     ),
   },
@@ -63,8 +59,7 @@ const squares = [
       <>
       Everything we offer, from our label scanner to our curated billing 
       codes to revenue trackers to instant OHIP card validation, is built 
-      around your needs. And all the basic functions are totally free — we 
-      only charge for full-service billing reviews — and we are constantly adding new features.
+      around your needs. 
       </>
     ),
   },
@@ -107,8 +102,8 @@ function Square({imageUrl, title, subtitle, description}) {
           <img className={styles.squareImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3 className="text-center-margin">{title}</h3>
-      <h5 className="text-center-margin">{subtitle}</h5>
+      <h2 className="highlightsTitle">{title}</h2>
+      <p className="highlightsSubTitle">{subtitle}</p>
       <p>{description}</p>
     </div>
   );
@@ -140,7 +135,7 @@ const Hero = () => {
       <div id="main-header">
         <div className="container">
           <h1>
-            <span>OHIP Billing</span> Made Better.
+            <span>OHIP Billing</span> <br></br> Made Better.
           </h1>
           <h2>
           IntelAGENT is the best available billing solution for Ontario physicians.
@@ -170,21 +165,17 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   const {title, tagline, url, favicon} = siteConfig;
-  const ogImage = `${url}/img/IntelAGENT_Logo_WithShadow.jpg`;
+  const ogImage = `${url}/img/IntelAGENT-logo.svg`;
 
   return (
     <div>
     <Head>
-        <meta property="og:description" content={tagline} />
         <meta charSet="utf-8" />
-        <meta property="og:image" content={ogImage} />
-        <meta property="twitter:image" content={ogImage} />
-        <meta name="twitter:image:alt" content="Image for GraphQL Inspector" />
-        <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:title" content={`${title} - ${tagline}`} />
-        <meta name="description" content={tagline} />
+        <meta name="description" content='Free OHIP Billing' />
         <meta property="og:description" content={tagline} />
         <meta property="og:url" content={url} />
+        <meta property="og:image" content={ogImage} />
         <link rel="shortcut icon" href={favicon}></link>
         <title>
           {title} - {tagline}
@@ -210,10 +201,10 @@ function Home() {
           link: (
             <div className={styles.indexGithubLinks}>
               <Link
-                to="/"
-                title="How to use GraphQL Inspector in GitHub repository"
+                to="/docs/features/hcv"
+                title="Health Card Validation Documentation"
               >
-                Learn more
+                Learn more >
               </Link>              
             </div>
           ),
@@ -230,10 +221,10 @@ function Home() {
           ),
           link: (
             <Link
-              to="/"
-              title="Learn how to use GraphQL Inspector CLI"
+              to="/docs/features/quick-copy"
+              title="Curated Billing Coedes"
             >
-              Lean more
+              Lean more >
             </Link>
           ),
           img: (
@@ -249,10 +240,10 @@ function Home() {
           ),
           link: (
             <a
-              href="https://github.com/kamilkisiela/graphql-inspector"
-              title="Visit GraphQL Inspector repository"
+              href="/docs/features/favourites"
+              title="Pre-set Favourite codes"
             >
-              Source code
+              Learn more >
             </a>
           ),
           img: (
@@ -268,10 +259,10 @@ function Home() {
           ),
           link: (
             <a
-              href="https://github.com/kamilkisiela/graphql-inspector"
-              title="Visit GraphQL Inspector repository"
+              href="/docs/features/adding-referring-physician"
+              title="Referring Physician Billing Numbers"
             >
-              Source code
+              Learn more >
             </a>
           ),
           img: (
@@ -302,7 +293,7 @@ function Home() {
             img={require('../../static/img/revenue.png')}
             alt="Notifications"
             loading="lazy"
-            height={300}
+            size={200}
           />
         }
         title="Track Revenue"

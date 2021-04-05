@@ -5,7 +5,7 @@ import styles from './contact.module.css';
 export function ContactForm() {
   const [state, handleSubmit] = useForm("xpnozkpx");
   if (state.succeeded) {
-      return (<div className={styles.contactUsBackground} id="contact-us"><p>Thanks for your question! We'll get back to you shortly.</p></div>);
+      return (<div className={styles.contactUsResponse} id="contact-us"><p>Thanks for your question! We'll get back to you shortly.</p></div>);
   }
   return (
 

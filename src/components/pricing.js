@@ -14,9 +14,9 @@ export function Pricing() {
             <div className={styles.pricingplan}>
               <img src="/img/self-service-web-logo.png" alt="Self-Service" className={styles.pricingimg}/>
               <h2 className={styles.pricingheader}>Self-Service</h2>
-              <h3 className={styles.pricingheader}>Free OHIP Billing</h3>
+              <h3 className={styles.pricingsubheader}>Free OHIP Billing</h3>
               <ul className={styles.pricingfeatures}>
-                <li className={styles.pricingfeaturesitem}>Easy to use Mobile App</li>
+                <li className={styles.pricingfeaturesitem}>Easy to use Mobile App.</li>
                 <li className={styles.pricingfeaturesitem}>Fix and resubmit rejected claims quickly using the in app tools.</li>
                 <li className={styles.pricingfeaturesitem}>Automated Health Card scanning and validation.</li>
                 <li className={styles.pricingfeaturesitem}>Use historical claims and Revenue charting to reconcile payments.</li>
@@ -28,7 +28,7 @@ export function Pricing() {
             <div className={styles.pricingplan}>
               <img src="/img/full-service-logo.png" alt="Full-Service" className={styles.pricingimg}/>
               <h2 className={styles.pricingheader}>Full-Service</h2>
-              <h3 className={styles.pricingheader}>Personal Billing Agent</h3>
+              <h3 className={styles.pricingsubheader}>Personal Billing Agent</h3>
               <ul className={styles.pricingfeatures}>
               <li className={styles.pricingfeaturesitem}>Optimize claim submissions.</li>        
               <li className={styles.pricingfeaturesitem}>Agent hanldes all Version Code Correction and health card errors.</li>

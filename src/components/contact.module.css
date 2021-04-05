@@ -93,7 +93,6 @@
   }
   
   .contactLimitContainer {
-
   }
   
   .contactMainPart {
@@ -102,10 +101,11 @@
   
   .contactRow{
       display: flex;
+      flex-direction: row;
   }
 
   .contactGrid{
-      flex: 1
+      flex: 1;
   }
 
   .contactMailBox {
@@ -206,5 +206,11 @@
     .contactSideBySide > .contactMailBox {
       margin-bottom: 50px;
     }
+
+    .contactRow{
+      display: flex;
+      flex-direction: column;
+      flex-flow: column-reverse;
+  }
   }
   

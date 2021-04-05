@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import {GitHub, Twitter, Linkedin} from 'react-feather';
 
 export const Nav = ({link}) => {
   return (

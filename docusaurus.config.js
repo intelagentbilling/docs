@@ -1,8 +1,8 @@
 const users = require('./showcase.json');
 
 module.exports = {
-  title: 'IntelAGENT Documentation and Support',
-  tagline: 'OHIP Billing Made Better',
+  title: 'IntelAGENT',
+  tagline: 'OHIP Billling.',
   url: 'http://www.intelagent.ca',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -13,12 +13,7 @@ module.exports = {
   customFields: {
     users,
   },
-  themeConfig: {
-    gtag: {
-      trackingID: 'GTM-T2SJLRG',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
+  themeConfig: {   
     navbar: {
       title: 'IntelAGENT',
       logo: {
@@ -50,7 +45,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Guides',
           items: [
             {
               label: 'Installation',
@@ -59,6 +54,10 @@ module.exports = {
             {
               label: 'Designation',
               to: '/docs/getting-started/designation',
+            },
+            {
+              label: 'MOH Group Codes',
+              to: '/docs/getting-started/moh_group',
             },
           ],
         },
@@ -80,18 +79,40 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Features',
           items: [
+            {
+              label: 'Health Card Validation',
+              href: '/docs/features/hcv',
+            },
             {
               label: 'Quick Copy',
               to: '/docs/features/quick-copy',
             },
             {
-              label: 'Health Card Validation',
-              href: '/docs/features/hcv',
+              label: 'Favourties',
+              to: '/docs/features/favourites',
             },
+
           ],
         },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Product Comparison',
+              href: '/docs/comparison',
+            },
+            {
+              label: 'Payment',
+              href: '/docs/faq/payment',
+            },
+            {
+              label: 'Privacy',
+              href: '/privacy',
+            },
+          ],
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} IntelAGENT Billing`,
     },
@@ -116,8 +137,21 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+            changefreq: 'weekly',
+            priority: 0.5,
+            trailingSlash: false,
+        },
       },
     ],
   ],
-  plugins: ['@docusaurus/plugin-ideal-image'],
+  plugins: [
+    '@docusaurus/plugin-ideal-image',
+    [
+      require.resolve('docusaurus-gtm-plugin'),
+      {
+        id: 'GTM-T2SJLRG', // GTM Container ID
+      }
+    ]
+  ],
 };

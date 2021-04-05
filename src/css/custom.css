@@ -14,7 +14,16 @@
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-secondary: #354c87;
+  --ifm-color-secondary-dark: #30447a;
+  --ifm-color-secondary-darker: #2d4173;
+  --ifm-color-secondary-darkest: #25355f;
+  --ifm-color-secondary-light: #3a5495;
+  --ifm-color-secondary-lighter: #3d579b;
+  --ifm-color-secondary-lightest: #4563b0;
   --ifm-code-font-size: 95%;
+  --ifm-intelagent-color-primary: #4d516c;
+  --ifm-intelagent-link-color: #f8f8f8;
 }
 
 .docusaurus-highlight-code-line {
@@ -37,11 +46,20 @@
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #4d516c;
+  --ifm-footer-background-color: var(--ifm-intelagent-color-primary);
+}
+
+.footer--dark a{
+  color: var(--ifm-intelagent-link-color);
+}
+
+.footer__copyright{
+  color: var(--ifm-intelagent-link-color);
 }
 
 a {
   transition: all 0.2s ease 0s;
+  color: var(--ifm-color-secondary);
 }
 
 body {
@@ -55,7 +73,6 @@ button {
 .text-center-margin{
   text-align: center;
   margin-bottom: 20px;
-
 }
 
 /* AppList */
@@ -75,9 +92,8 @@ button {
 .highlightsContainer {
   width: 100%;
   min-height: 200px;
-  background-color: #f4f4f4;
+  background-color: #F8FAFC;
   color: #555555;
-
   position: relative;
 }
 
@@ -85,6 +101,12 @@ button {
   font-size: 25px;
   font-weight: 800;
   color: #343434;
+  text-align: center;
+}
+
+.highlightsSubTitle {
+  font-size: 16px;
+  text-align: center;
 }
 
 .highlightsLimiter {
@@ -177,7 +199,7 @@ button {
 
 @media only screen and (min-width: 1024px) {
   #main-nav {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   #main-header {
@@ -213,7 +235,7 @@ button {
 }
 
 .footer .text--center div:not(.margin-bottom--sm) {
-  color: var(--ifm-color-secondary);
+  color: var(--ifm-intelagent-link-color);
 }
 
 .footer .footer__link-item:hover {
@@ -366,7 +388,7 @@ body:not(.separateOnPageNav) .mainContainer.enterprise {
 
 #main-header h2 {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.33;
   letter-spacing: 0.5px;
   color: #4a4a4a;
