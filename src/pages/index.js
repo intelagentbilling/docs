@@ -19,7 +19,7 @@ import {ContactForm} from '../components/contact';
 const squares = [
   {
     title: 'Secure',
-    imageUrl: 'img/undraw_secure.svg',
+    imageUrl: 'img/check.svg',
     subtitle: (
       <> 
       Built with the highest standards of data protection.
@@ -34,7 +34,7 @@ const squares = [
   },
   {
     title: 'Specialized',
-    imageUrl: 'img/undraw_medicine.svg',
+    imageUrl: 'img/check.svg',
     subtitle: (
       <> 
       The IntelAGENT service is simple yet very powerful.
@@ -49,7 +49,7 @@ const squares = [
   },
   {
     title: 'Superior',
-    imageUrl: 'img/undraw_solution.svg',
+    imageUrl: 'img/check.svg',
     subtitle: (
       <> 
       We’re designed to simplify the physician workflow.
@@ -99,7 +99,7 @@ function Square({imageUrl, title, subtitle, description}) {
     <div className={clsx('col col--4', styles.square)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.squareImage} src={imgUrl} alt={title} />
+          <img className={styles.squareImage} src={imgUrl} width={50} alt={title} />
         </div>
       )}
       <h2 className="highlightsTitle">{title}</h2>
@@ -290,10 +290,9 @@ function Home() {
         reversed={true}
         img={
           <Image
-            img={require('../../static/img/revenue.png')}
+            img={require('../../static/img/Track revenue 2.png')}
             alt="Notifications"
             loading="lazy"
-            size={200}
           />
         }
         title="Track Revenue"
@@ -314,7 +313,7 @@ function Home() {
       <Feature
         img={
           <Image
-            img={require('../../static/img/new-claim.png')}
+            img={require('../../static/img/Submit claims.png')}
             alt="Schema Validation"
             loading="lazy"
           />
@@ -346,7 +345,7 @@ function Home() {
         reversed={true}
         img={
           <Image
-            img={require('../../static/img/records.png')}
+            img={require('../../static/img/Manage claims.png')}
             alt="Intercept changes via HTTP"
             loading="lazy"
           />
@@ -373,7 +372,7 @@ function Home() {
       <Feature
         img={
           <Image
-            img={require('../../static/img/billing-codes.png')}
+            img={require('../../static/img/Billing codes.png')}
             alt="Annotations"
             loading="lazy"
           />
