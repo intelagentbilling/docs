@@ -290,7 +290,7 @@ function Home() {
         reversed={true}
         img={
           <Image
-            img={require('../../static/img/Track revenue 2.png')}
+            img={require('../../static/img/Track revenue.png')}
             alt="Notifications"
             loading="lazy"
           />
