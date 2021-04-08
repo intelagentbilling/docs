@@ -315,6 +315,7 @@ body:not(.separateOnPageNav) .mainContainer {
   padding-bottom: 0;
   align-items: center;
   background-image: url(/img/hero_shadow.png);
+  background-size: 550px;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
