@@ -1,19 +1,19 @@
+const users = require('./showcase.json');
+
 module.exports = {
-  title: 'IntelAGENT Documentation and Support',
-  tagline: 'OHIP Billing Made Better',
-  url: 'http://docs.intelagent.ca',
+  title: 'IntelAGENT',
+  tagline: 'OHIP Billling.',
+  url: 'http://www.intelagent.ca',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'akepecs', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-  themeConfig: {
-    gtag: {
-      trackingID: 'GTM-T2SJLRG',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
+  customFields: {
+    users,
+  },
+  themeConfig: {   
     navbar: {
       title: 'IntelAGENT',
       logo: {
@@ -45,15 +45,19 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Guides',
           items: [
             {
               label: 'Installation',
-              to: '/',
+              to: '/docs/',
             },
             {
               label: 'Designation',
-              to: '/getting-started/doc2',
+              to: '/docs/getting-started/designation',
+            },
+            {
+              label: 'MOH Group Codes',
+              to: '/docs/getting-started/moh_group',
             },
           ],
         },
@@ -62,31 +66,53 @@ module.exports = {
           items: [
             {
               label: 'Self-Service',
-              href: '/pricing/self-service',
+              href: '/docs/pricing/self-service',
             },
             {
               label: 'Full-Service',
-              href: '/pricing/full-service',
+              href: '/docs/pricing/full-service',
             },
             {
               label: 'Pay As You Go',
-              href: '/pricing/pay-as-you-go',
+              href: '/docs/pricing/pay-as-you-go',
             },
+          ],
+        },
+        {
+          title: 'Features',
+          items: [
+            {
+              label: 'Health Card Validation',
+              href: '/docs/features/hcv',
+            },
+            {
+              label: 'Quick Copy',
+              to: '/docs/features/quick-copy',
+            },
+            {
+              label: 'Favourties',
+              to: '/docs/features/favourites',
+            },
+
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'Quick Copy',
-              to: '/features/quick-copy',
+              label: 'Product Comparison',
+              href: '/docs/comparison',
             },
             {
-              label: 'Health Card Validation',
-              href: '/features/hcv',
+              label: 'Payment',
+              href: '/docs/faq/payment',
+            },
+            {
+              label: 'Privacy',
+              href: '/privacy',
             },
           ],
-        },
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} IntelAGENT Billing`,
     },
@@ -99,7 +125,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Removes the Home Page
-          routeBasePath: '/',
+          routeBasePath: '/docs',
 
         },
         blog: {
@@ -111,7 +137,21 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+            changefreq: 'weekly',
+            priority: 0.5,
+            trailingSlash: false,
+        },
       },
     ],
-  ], 
+  ],
+  plugins: [
+    '@docusaurus/plugin-ideal-image',
+    [
+      require.resolve('docusaurus-gtm-plugin'),
+      {
+        id: 'GTM-T2SJLRG', // GTM Container ID
+      }
+    ]
+  ],
 };

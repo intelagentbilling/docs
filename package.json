@@ -13,11 +13,16 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/plugin-ideal-image": "2.0.0-alpha.70",
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
+    "@formspree/react": "^2.2.3",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
+    "docusaurus-gtm-plugin": "^0.0.2",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-feather": "^2.0.9",
+    "react-google-recaptcha": "^2.1.0"
   },
   "browserslist": {
     "production": [

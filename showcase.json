@@ -1,0 +1,104 @@
+[
+    {
+      "name": "St. Joseph's Health Center",
+      "icon": "sjhct-logo.png",
+      "infoLink": "https://stjoestoronto.ca/",
+      "infoTitle": "How We Built the First Cross-Platform React Native App",
+      "pinned": true
+    },
+    {
+      "name": "North York General",
+      "icon": "nyg-logo.svg",
+      "infoLink": "https://www.nygh.on.ca/",
+      "infoTitle": "",
+      "pinned": true
+    },
+    {
+      "name": "Mount Sinai Hospital",
+      "icon": "msh-logo.png",      
+      "infoLink": "https://www.mountsinai.on.ca/",
+      "pinned": true
+    },
+    {
+      "name": "Sunnybrook",
+      "icon": "sb-hsc-logo.png",
+      "infoLink": "https://sunnybrook.ca/",
+      "infoTitle": "Sunnybrook",
+      "pinned": true
+    },
+    {
+      "name": "UHN",
+      "icon": "uhn-logo.png",
+      "infoLink": "https://www.uhn.ca/",
+      "infoTitle": "UHN",
+      "pinned": true
+    },
+    {
+      "name": "Lakeridge",
+      "icon": "lakeridge-logo.png",
+      "infoLink": "https://www.lakeridgehealth.on.ca/en/index.asp",
+      "infoTitle": "Lakeridge Health",
+      "pinned": true
+    },
+    {
+      "name": "Women's College",
+      "icon": "wch-logo.svg",
+      "infoLink": "https://www.womenscollegehospital.ca/",
+      "infoTitle": "Women's College Hospital",
+      "pinned": true
+    },
+    {
+      "name": "The Ottawa Hospital",
+      "icon": "TOH-logo.svg",
+      "infoLink": "https://www.ottawahospital.on.ca/",
+      "infoTitle": "The Ottawa Hospital",
+      "pinned": true
+    },
+    {
+      "name": "Michael Garron",
+      "icon": "teh-logo.svg",      
+      "infoLink": "https://tehn.ca/",
+      "infoTitle": "Michael Garron Hospital",
+      "pinned": true
+    },
+    {
+      "name": "Grey Bruce Health Service",
+      "icon": "GBHS-logo.png",
+      "infoLink": "https://www.gbhs.on.ca/",
+      "infoTitle": "Grey Bruce Health Service",
+      "pinned": true
+    },
+    {
+      "name": "Queensway Carleton Hospital",
+      "icon": "queensway-logo.png",      
+      "infoLink": "https://www.qch.on.ca/",
+      "infoTitle": "Queensway Carleton Hospital",
+      "pinned": true
+    },
+    {
+      "name": "London Health Services Centre",
+      "icon": "lhsc-logo.svg",      
+      "infoLink": "https://https://www.lhsc.on.ca/",
+      "pinned": true
+    },
+    {
+      "name": "Muskoka Algonquin Healthcare",
+      "icon": "mah-logo.svg",      
+      "infoLink": "https://www.mahc.ca/en/index.aspx",
+      "pinned": true
+    },
+    {
+      "name": "Grand River Hospital",
+      "icon": "grh-logo.svg",      
+      "infoLink": " https://www.grhosp.on.ca/",
+      "pinned": true
+    },
+    {
+      "name": "William Osler Heath System",
+      "icon": "woh-logo.svg",      
+      "infoLink": "https://www.williamoslerhs.ca/en/index.aspx",
+      "pinned": true
+    }
+  
+    
+  ]
