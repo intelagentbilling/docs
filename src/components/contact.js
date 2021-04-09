@@ -5,6 +5,7 @@ import styles from './contact.module.css';
 
 export function ContactForm() {
   const [state, handleSubmit] = useForm("xpnozkpx");
+  console.log(document.getElementById('g-recaptcha-response'))
   if (state.succeeded) {
       return (<div className={styles.contactUsResponse} id="contact-us"><p>Thanks for your question! We'll get back to you shortly.</p></div>);
   }
@@ -67,13 +68,13 @@ export function ContactForm() {
                                     field="message"
                                     errors={state.errors}
                                 />
+                                <ReCAPTCHA
+                                sitekey="6LfkQpQaAAAAABK0j4xctiJK6jXq7wY5xQ_kY5zZ"
+                                />
                                 <button type="submit" disabled={state.submitting}>
                                     Submit
                                 </button>
                                 </form>
-                                <ReCAPTCHA
-                                sitekey="6LfkQpQaAAAAABK0j4xctiJK6jXq7wY5xQ_kY5zZ"
-                                />
                         </div>
                     </div>
                 </div>
