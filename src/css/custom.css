@@ -81,14 +81,6 @@ button {
   list-style: none;
 }
 
-.AppList {
-  display: grid;
-  padding: 0;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 16px;
-
-}
-
 .highlightsContainer {
   width: 100%;
   min-height: 200px;
@@ -116,11 +108,6 @@ button {
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 768px) {
-  .mainContainer {
-    background-position: bottom !important;
-  }
-}
 
 @media only screen and (max-width: 996px) {
   .menu > button {
@@ -132,8 +119,15 @@ button {
 @media only screen and (max-width: 1024px) {
   .mainContainer {
     padding-top: 90px;
-    background-size: 400px;
-    background-position: bottom right;
+    background-size: 300px;
+    background-position: bottom;
+  }
+
+  .AppList {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
   }
 
   #main-nav {
@@ -197,7 +191,21 @@ button {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  
+  .mainContainer {
+    background-position: right 15% bottom -30%;
+    background-size: 550px;
+  }
+  
+  .AppList {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+  
+  }
+
   #main-nav {
     padding-top: 20px;
   }
@@ -216,10 +224,49 @@ button {
     margin-right: 0;
   }
 
-  .mainContainer {
-    background-size: 590px;
-    background-position: right bottom;
+
+  #main-highlights .highlight {
+    width: 30%;
   }
+
+  .live-wrapper {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1441px){
+  
+  .mainContainer {
+    background-position: right 25% bottom -30%;
+    background-size: 550px;
+  }
+  
+  .AppList {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+  
+  }
+
+  #main-nav {
+    padding-top: 20px;
+  }
+
+  #main-header {
+    padding-top: 175px;
+    padding-bottom: 125px;
+  }
+
+  #main-header h1 {
+    max-width: 450px;
+  }
+
+  #main-header .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 
   #main-highlights .highlight {
     width: 30%;
@@ -313,16 +360,10 @@ body.separateOnPageNav .mainContainer {
 
 body:not(.separateOnPageNav) .mainContainer {
   padding-bottom: 0;
-  align-items: center;
-  background-image: url(/img/hero_shadow.png);
-  background-size: 550px;
+  background-image: url(/img/hero.png);
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
-body:not(.separateOnPageNav) .mainContainer.enterprise {
-  background-image: url(/img/ui/enterprise-cover.svg);
-}
 
 #main-nav {
   max-width: 960px;

@@ -35,7 +35,7 @@
     flex-direction: row;
   }
   
-  .featureContent.reversed > .featureIage {
+  .featureContent.reversed > .featureImage {
     text-align: right;
   }
   
@@ -84,7 +84,7 @@
     }
   
     .featureContent.reversed {
-      flex-direction: row;
+      flex-direction: column;
     }
   
     .featureContent .featureImage,

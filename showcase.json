@@ -2,14 +2,14 @@
     {
       "name": "St. Joseph's Health Center",
       "icon": "sjhct-logo.png",
-      "infoLink": "https://code.facebook.com/posts/1189117404435352/react-native-for-android-how-we-built-the-first-cross-platform-react-native-app/",
+      "infoLink": "https://stjoestoronto.ca/",
       "infoTitle": "How We Built the First Cross-Platform React Native App",
       "pinned": true
     },
     {
       "name": "North York General",
       "icon": "nyg-logo.svg",
-      "infoLink": "https://analytics.facebook.com/blog",
+      "infoLink": "https://www.nygh.on.ca/",
       "infoTitle": "",
       "pinned": true
     },
@@ -22,63 +22,57 @@
     {
       "name": "Sunnybrook",
       "icon": "sb-hsc-logo.png",
-      "infoLink": "https://engineering.instagram.com/react-native-at-instagram-dd828a9a90c7#.3h4wir4zr",
-      "infoTitle": "React Native at Instagram",
+      "infoLink": "https://sunnybrook.ca/",
+      "infoTitle": "Sunnybrook",
       "pinned": true
     },
     {
       "name": "UHN",
       "icon": "uhn-logo.png",
-      "infoLink": "",
-      "infoTitle": "",
+      "infoLink": "https://www.uhn.ca/",
+      "infoTitle": "UHN",
       "pinned": true
     },
     {
       "name": "Lakeridge",
       "icon": "lakeridge-logo.png",
-      "infoLink": "https://blog.coinbase.com/optimizing-react-native-7e7bf7ac3a34",
-      "infoTitle": "Onboarding thousands of users with React Native",
+      "infoLink": "https://www.lakeridgehealth.on.ca/en/index.asp",
+      "infoTitle": "Lakeridge Health",
       "pinned": true
     },
     {
-      "name": "Women's Colledge",
+      "name": "Women's College",
       "icon": "wch-logo.svg",
-      "infoLink": "https://blog.coinbase.com/optimizing-react-native-7e7bf7ac3a34",
-      "infoTitle": "Onboarding thousands of users with React Native",
+      "infoLink": "https://www.womenscollegehospital.ca/",
+      "infoTitle": "Women's College Hospital",
       "pinned": true
     },
     {
       "name": "The Ottawa Hospital",
       "icon": "TOH-logo.svg",
-      "linkAppStore": "https://apps.apple.com/us/app/tableau-mobile/id434633927",
-      "linkPlayStore": "https://play.google.com/store/apps/details?id=com.Tableau.TableauApp&hl=en_US",
-      "infoLink": "https://engineering.tableau.com/react-native-at-tableau-3-years-in-89d43c38354c",
-      "infoTitle": "React Native at Tableau 3 Years in",
+      "infoLink": "https://www.ottawahospital.on.ca/",
+      "infoTitle": "The Ottawa Hospital",
       "pinned": true
     },
     {
-      "name": "Michael Garrison",
-      "icon": "teh-logo.svg",
-      "linkAppStore": "https://apps.apple.com/us/app/tableau-mobile/id434633927",
-      "linkPlayStore": "https://play.google.com/store/apps/details?id=com.Tableau.TableauApp&hl=en_US",
-      "infoLink": "https://engineering.tableau.com/react-native-at-tableau-3-years-in-89d43c38354c",
-      "infoTitle": "React Native at Tableau 3 Years in",
+      "name": "Michael Garron",
+      "icon": "teh-logo.svg",      
+      "infoLink": "https://tehn.ca/",
+      "infoTitle": "Michael Garron Hospital",
       "pinned": true
     },
     {
       "name": "Grey Bruce Health Service",
       "icon": "GBHS-logo.png",
-      "infoLink": "https://code.facebook.com/posts/895897210527114/dive-into-react-native-performance/",
-      "infoTitle": "Using React Native in the Facebook App",
+      "infoLink": "https://www.gbhs.on.ca/",
+      "infoTitle": "Grey Bruce Health Service",
       "pinned": true
     },
     {
       "name": "Queensway Carleton Hospital",
-      "icon": "queensway-logo.png",
-      "linkAppStore": "https://apps.apple.com/us/app/tableau-mobile/id434633927",
-      "linkPlayStore": "https://play.google.com/store/apps/details?id=com.Tableau.TableauApp&hl=en_US",
-      "infoLink": "https://engineering.tableau.com/react-native-at-tableau-3-years-in-89d43c38354c",
-      "infoTitle": "React Native at Tableau 3 Years in",
+      "icon": "queensway-logo.png",      
+      "infoLink": "https://www.qch.on.ca/",
+      "infoTitle": "Queensway Carleton Hospital",
       "pinned": true
     },
     {
