@@ -70,6 +70,9 @@ export function ContactForm() {
                                     Submit
                                 </button>
                                 </form>
+                                <ReCAPTCHA
+                                sitekey="6LfkQpQaAAAAABK0j4xctiJK6jXq7wY5xQ_kY5zZ"
+                                />
                         </div>
                     </div>
                 </div>

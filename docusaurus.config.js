@@ -2,7 +2,7 @@ const users = require('./showcase.json');
 
 module.exports = {
   title: 'IntelAGENT',
-  tagline: 'OHIP Billling.',
+  tagline: 'OHIP Billling',
   url: 'http://www.intelagent.ca',
   baseUrl: '/',
   onBrokenLinks: 'throw',
