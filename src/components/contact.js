@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import ReCAPTCHA from "react-google-recaptcha";
 import styles from './contact.module.css';
 
 export function ContactForm() {
