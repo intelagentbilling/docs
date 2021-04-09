@@ -67,13 +67,13 @@ export function ContactForm() {
                                     field="message"
                                     errors={state.errors}
                                 />
+                                <ReCAPTCHA
+                                sitekey="6LfkQpQaAAAAABK0j4xctiJK6jXq7wY5xQ_kY5zZ"
+                                />
                                 <button type="submit" disabled={state.submitting}>
                                     Submit
                                 </button>
                                 </form>
-                                <ReCAPTCHA
-                                sitekey="6LfkQpQaAAAAABK0j4xctiJK6jXq7wY5xQ_kY5zZ"
-                                />
                         </div>
                     </div>
                 </div>

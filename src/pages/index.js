@@ -6,7 +6,6 @@ import Head from '@docusaurus/Head';
 import Footer from '@theme/Footer';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import ReCAPTCHA from "react-google-recaptcha";
 import styles from './styles.module.css';
 import {Feature} from '../components/feature';
 import {Pricing} from '../components/pricing';
@@ -397,9 +396,6 @@ function Home() {
         }
       />
       <ContactForm/>
-      <ReCAPTCHA
-      sitekey="6LfkQpQaAAAAABK0j4xctiJK6jXq7wY5xQ_kY5zZ"
-      />
       <Footer />
     </div>
   );
