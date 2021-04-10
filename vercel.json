@@ -24,6 +24,11 @@
         "source": "/signup.html",
         "destination": "/signup", 
         "permanent": true
+      },
+      { 
+        "source": "/features.html",
+        "destination": "/#features", 
+        "permanent": true
       }
     ]
   }
