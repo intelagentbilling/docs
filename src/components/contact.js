@@ -1,6 +1,5 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import ReCAPTCHA from "react-google-recaptcha";
 import styles from './contact.module.css';
 
 export function ContactForm() {
@@ -66,9 +65,6 @@ export function ContactForm() {
                                     prefix="Message" 
                                     field="message"
                                     errors={state.errors}
-                                />
-                                <ReCAPTCHA
-                                sitekey="6LfkQpQaAAAAABK0j4xctiJK6jXq7wY5xQ_kY5zZ"
                                 />
                                 <button type="submit" disabled={state.submitting}>
                                     Submit
