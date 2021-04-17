@@ -1,0 +1,34 @@
+{
+    "redirects": [
+      { 
+        "source": "/payment",
+        "destination": "/docs/faq/payment", 
+        "permanent": true
+      },
+      { 
+        "source": "/comparison.html",
+        "destination": "/docs/comparison", 
+        "permanent": true
+      },
+      { 
+        "source": "/onboarding.html",
+        "destination": "/docs/getting-started/designation", 
+        "permanent": true
+      },
+      { 
+        "source": "/privacy.html",
+        "destination": "/privacy", 
+        "permanent": true
+      },
+      { 
+        "source": "/signup.html",
+        "destination": "/signup", 
+        "permanent": true
+      },
+      { 
+        "source": "/features.html",
+        "destination": "/#features", 
+        "permanent": true
+      }
+    ]
+  }

@@ -5,9 +5,9 @@ module.exports = {
       label: "Getting Started",
       collapsed: false,
       items: [
-      'getting-started/doc1',
-      'getting-started/doc2',
-      'getting-started/doc3',
+      'getting-started/installation',
+      'getting-started/designation',
+      'getting-started/moh_group',
       ],
     },
     {
