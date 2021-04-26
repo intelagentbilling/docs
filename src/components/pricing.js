@@ -31,7 +31,7 @@ export function Pricing() {
               <h3 className={styles.pricingsubheader}>Personal Billing Agent</h3>
               <ul className={styles.pricingfeatures}>
               <li className={styles.pricingfeaturesitem}>Optimize claim submissions.</li>        
-              <li className={styles.pricingfeaturesitem}>Agent hanldes all Version Code Correction and health card errors.</li>
+              <li className={styles.pricingfeaturesitem}>Agent handles all Version Code Correction and health card errors.</li>
               <li className={styles.pricingfeaturesitem}>Remittance Advice Inquiry submission on disputed claims.</li>
               <li className={styles.pricingfeaturesitem}>Payment reconciliation report delivered monthly.</li>
               </ul>
