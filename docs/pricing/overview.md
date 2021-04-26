@@ -12,7 +12,7 @@ sidebar_label: Pricing Overview
 
 ## Self-Service Plan
 
-The self-service plan allows you to control your own billing using the power of full featured mobile app. This option works well for experienced biller or lower volume billers that use a full EMR in their clinics.
+The self-service plan allows you to control your own billing using the power of full featured mobile app. This option works well for experienced billers or lower volume billers who use a full EMR in their clinics.
 
 For more details see our [Free OHIP Billing page](self-service.md) page.
 
@@ -23,8 +23,8 @@ For more details see our [Free OHIP Billing page](self-service.md) page.
  For more details see our [Full-Service OHIP Billing Agent](full-service.md) page.
  
 
- ## Pay As You Go Billing Agent Servcie
+ ## Pay-As-You-Go Billing Agent Servcie
 
- The pay as you go billing agent servcie is an option for self-service customers that enjoy using the service for free but occasionally want help for individual claims on a pay-as-you-go basis. We charge a percentage of the recovered claim value for these users. The user gets shown the estimated fees for each laim before they agree to the "pay as you go" servcie. 
+ The pay as you go billing agent service is an option for self-service customers that enjoy using the service for free but occasionally want help for individual claims on a pay-as-you-go basis. We charge a percentage of the recovered claim value for these users. The user gets shown the estimated fees for each claim before they agree to the "pay as you go" service. 
 
- For more details see our [Pay As You Go Billing Agnet](pay-as-you-go.md) page.
+ For more details see our [Pay As You Go Billing Agent](pay-as-you-go.md) page.
