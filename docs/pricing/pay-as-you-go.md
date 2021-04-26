@@ -1,7 +1,7 @@
 ---
 id: pay-as-you-go
-title: Pay As You Go Billing Agent
-sidebar_label: Pay As You Go Billing Agent
+title: Pay-As-You-Go Billing Agent
+sidebar_label: Pay-As-You-Go Billing Agent
 ---
 
 When you select a Rejected and Partial from the Records tab you will see a header on top of the claim asking you if you want a quote from our Pay As You Go Billing Agent Service
