@@ -8,7 +8,7 @@ sidebar_label: Pricing Overview
 
  We have three pricing models for submitting claims to OHIP. The free plan is mobile only and allows you to submit claims to OHIP and manage rejections yourself. The full-service and pay as you go option are optional and only charge you for claims that are successfully paid.
 
- There are no setup fees. There is no contract to sign for any of the plans and you can choose to change plans or cancel at any time with no obligation. 
+ There are no setup fees. There is no contract to sign for any of the plans and you can choose to change plans or cancel at any time with no obligation.
 
 ## Self-Service Plan
 
