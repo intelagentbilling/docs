@@ -26,7 +26,7 @@ module.exports = {
       type: "category",
       label: "FAQ",
       collapsed: true,
-      items: ['faq/delete-claim','faq/rmb'],
+      items: ['faq/delete-claim','faq/sli','faq/fractional'],
     },
     {
       type: "category",
