@@ -8,9 +8,17 @@ sidebar_label: Virtual Care
 
 You can review the [Ministry Bulletin](http://www.health.gov.on.ca/en/pro/programs/ohip/bulletins/4000/bul4745.aspx) for further details. 
 
+## K083 Converter
+
 To quickly calculate the equivalent K083 value of your regular billing codes you can swipe left on the billing code and select the blue "K083" button. The app will automatically convert your regular billing codes into a K083 code of equivalent value (to the nearest $5, according to the ministry rules).
 
-:::note
+<div style={{textAlign: 'center'}}>
+
+![Example banner](./assets/k083.png)
+
+</div>
+
+:::tip
 
 The K083 calculator won't automatically incorporate your premiums into the K083 value. The rules for the premiums were decided following the introduction of the K-codes. 
 
