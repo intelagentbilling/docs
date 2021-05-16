@@ -22,12 +22,7 @@ module.exports = {
         href: 'https://www.intelagent.ca',
       },
       items: [
-        {
-          to: '/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
+
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'http://www.health.gov.on.ca/en/pro/programs/ohip/bulletins/4000/bulletin_4000_mn.aspx',

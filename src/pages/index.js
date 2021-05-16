@@ -164,7 +164,7 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   const {title, tagline, url, favicon} = siteConfig;
-  const ogImage = `${url}/img/IntelAGENT-logo.svg`;
+  const ogImage = `${url}/img/IntelAGENT_Logo_WithShadow.png`;
 
   return (
     <div>
