@@ -10,6 +10,7 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'akepecs', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  titleDelimiter: '-',
   customFields: {
     users,
   },
