@@ -146,7 +146,7 @@ module.exports = {
     [
       require.resolve('docusaurus-gtm-plugin'),
       {
-        id: 'GTM-T2SJLRG', // GTM Container ID
+        id: process.env.GTM, // GTM Container ID
       }
     ]
   ],
