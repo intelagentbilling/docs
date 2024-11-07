@@ -152,9 +152,16 @@ const Hero = () => {
           to="https://play.google.com/store/apps/details?id=com.intelagent"
           className="main-button"
           title="Download Android"
-        >
-        Android
-        </Link>
+          >
+            Android
+          </Link>
+          <Link
+            to="https://app.intelagent.ca"
+            title="Access Web"
+            className="main-button"
+          >
+            WEB
+          </Link>
         </div>
       </div>
   );
