@@ -23,10 +23,20 @@ export function Pricing() {
               </ul>
               <span className={styles.pricingprice}>Free</span>              
             </div>
-            
-            
             <div className={styles.pricingplan}>
-              <img src="/img/mobile+agent.svg" alt="Full-Service" height={75} className={styles.pricingimg}/>
+              <img src="/img/mobile+desktop.svg" alt="Self-Service" height={75} className={styles.pricingimg}/>
+              <h2 className={styles.pricingheader}>Premium</h2>
+              <h3 className={styles.pricingsubheader}>Enhanced OHIP Billing</h3>
+              <ul className={styles.pricingfeatures}>
+                <li className={styles.pricingfeaturesitem}>Easy to use Mobile App and Web App.</li>
+                <li className={styles.pricingfeaturesitem}>Fix and resubmit rejected claims quickly using self-service RAIs and Supporting Document submission.</li>
+                <li className={styles.pricingfeaturesitem}>Automated Health Card scanning and validation.</li>
+                <li className={styles.pricingfeaturesitem}>Advanced searching and powerful reports to reconcile payments.</li>
+              </ul>
+              <span className={styles.pricingprice}>0.25% of Paid Claims</span>              
+            </div>
+            <div className={styles.pricingplan}>
+              <img src="/img/mobile+desktop+agent.svg" alt="Full-Service" height={75} className={styles.pricingimg}/>
               <h2 className={styles.pricingheader}>Full-Service</h2>
               <h3 className={styles.pricingsubheader}>Personal Billing Agent</h3>
               <ul className={styles.pricingfeatures}>

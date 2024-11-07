@@ -452,7 +452,7 @@ body:not(.separateOnPageNav) .mainContainer {
 
 .main-button {
   background-color: var(--ifm-color-primary);
-  border: 2px solid var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary-darker);
   color: #fff;
   margin-right: 10px;
 }
