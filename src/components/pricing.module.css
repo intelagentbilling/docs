@@ -65,6 +65,7 @@
     border: 3px solid #e1f1ff;
     display: flex;
     flex-direction: column;
+    border-radius: 25px;
   }
   
   @media (min-width: 900px) {
@@ -140,7 +141,14 @@
   .pricingprice {
     color: #888;
     display: block;
-    font-size: 26px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .pricingpricesub {
+    color: #888;
+    display: block;
+    font-size: 16px;
     font-weight: 700;
   }
   
