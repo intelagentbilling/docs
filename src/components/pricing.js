@@ -34,6 +34,7 @@ export function Pricing() {
                 <li className={styles.pricingfeaturesitem}>Advanced searching and powerful reports to reconcile payments.</li>
               </ul>
               <span className={styles.pricingprice}>0.25% of Paid Claims</span>              
+              <span className={styles.pricingpricesub}>(up to $39/month)</span>              
             </div>
             <div className={styles.pricingplan}>
               <img src="/img/mobile+desktop+agent.svg" alt="Full-Service" height={75} className={styles.pricingimg}/>
