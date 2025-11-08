@@ -10,22 +10,10 @@ export function Pricing() {
       <div className={styles.background}>
         <div className={styles.container}>
           <div className={styles.panel}>
-          <div className={styles.pricingtable}>   
-            <div className={styles.pricingplan}>
-              <img src="/img/mobile.svg" alt="Self-Service" height={75} className={styles.pricingimg}/>
-              <h2 className={styles.pricingheader}>Self-Service</h2>
-              <h3 className={styles.pricingsubheader}>Free OHIP Billing</h3>
-              <ul className={styles.pricingfeatures}>
-                <li className={styles.pricingfeaturesitem}>Easy to use Mobile App.</li>
-                <li className={styles.pricingfeaturesitem}>Fix and resubmit rejected claims quickly using the in app tools.</li>
-                <li className={styles.pricingfeaturesitem}>Automated Health Card scanning and validation.</li>
-                <li className={styles.pricingfeaturesitem}>Use historical claims and Revenue charting to reconcile payments.</li>
-              </ul>
-              <span className={styles.pricingprice}>Free</span>              
-            </div>
+          <div className={styles.pricingtable}>               
             <div className={styles.pricingplan}>
               <img src="/img/mobile+desktop.svg" alt="Self-Service" height={75} className={styles.pricingimg}/>
-              <h2 className={styles.pricingheader}>Premium</h2>
+              <h2 className={styles.pricingheader}>Self-Service</h2>
               <h3 className={styles.pricingsubheader}>Enhanced OHIP Billing</h3>
               <ul className={styles.pricingfeatures}>
                 <li className={styles.pricingfeaturesitem}>Easy to use Mobile App and Web App.</li>
@@ -34,7 +22,7 @@ export function Pricing() {
                 <li className={styles.pricingfeaturesitem}>Advanced searching and powerful reports to reconcile payments.</li>
               </ul>
               <span className={styles.pricingprice}>0.25% of Paid Claims</span>              
-              <span className={styles.pricingpricesub}>(up to $39/month)</span>              
+              <span className={styles.pricingpricesub}>(up to $39.99/month)</span>              
             </div>
             <div className={styles.pricingplan}>
               <img src="/img/mobile+desktop+agent.svg" alt="Full-Service" height={75} className={styles.pricingimg}/>
