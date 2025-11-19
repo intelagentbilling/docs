@@ -1,5 +1,18 @@
 {
-    "webcredentials": {
-      "apps": ["DPCGMP8UQG.com.adamkepecs.intelagent"]
-     }
-   }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "DPCGMP8UQG.com.adamkepecs.intelagent",
+        "paths": [
+          "/claims/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "DPCGMP8UQG.com.adamkepecs.intelagent"
+    ]
+  }
+}

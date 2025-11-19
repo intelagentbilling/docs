@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.intelagent",
+      "sha256_cert_fingerprints": [
+        "0A:BB:28:27:FB:8F:35:CB:77:47:F2:68:FF:2E:03:54:67:17:A7:54:34:7E:68:41:A4:34:4A:87:6E:95:2A:E7"
+      ]
+    }
+  }
+]
